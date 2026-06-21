@@ -10,8 +10,7 @@ header {
   justify-content: flex-start;
   padding: 0 100px;
   background-color: #ffffff;
-  padding-top: 24px;
-  padding-bottom: 24px;
+
 }
 
 .header-container {
@@ -48,7 +47,7 @@ header {
   gap: 40px;
   margin: 0;
   padding: 0;
-  margin-right: 800px;
+  margin-right: 72px;
 }
 
 .nav-list,
@@ -65,6 +64,7 @@ header {
   color: #2e2f42;
   display: block;
   padding: 24px 0;
+  line-height: 1.5;
 }
 
 .nav-link:hover,
@@ -95,7 +95,6 @@ header {
   justify-content: center;
   align-items: center;
   background-color: #2e2f42;
-  width: 1, 440px;
   color: #ffffff;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -109,6 +108,7 @@ header {
   color: #ffffff;
   max-width: 496px;
   margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .button {
@@ -116,6 +116,8 @@ header {
   width: 169px;
   height: 56px;
   color: #ffffff;
+  margin: 0 auto;
+  display: block;
 }
 
 .hero-btn:hover,
@@ -157,7 +159,6 @@ header {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
-  margin-bottom: 8px;
   text-align: left;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -363,7 +364,7 @@ footer {
 .footer-container {
   max-width: 1, 158px;
   margin-right: 62px;
-  padding: 0 156px;
+  padding: 0;
 }
 
 .footer-logo {
